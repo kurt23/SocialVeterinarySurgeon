@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialVeterinarySurgeon", "SocialVeterinarySurgeon\SocialVeterinarySurgeon.csproj", "{0E50E82F-D990-496E-85BA-294AC97E9C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialVeterinarySurgeon.Domain", "SocialVeterinarySurgeon.Domain\SocialVeterinarySurgeon.Domain.csproj", "{031AE526-8EBA-49DD-95A8-4C970B6DCBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialVeterinarySurgeon.BL", "SocialVeterinarySurgeon.BL\SocialVeterinarySurgeon.BL.csproj", "{6B2C88B6-D753-4316-8220-6C44DD0E6EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialVeterinarySurgeon.DAL", "SocialVeterinarySurgeon.DAL\SocialVeterinarySurgeon.DAL.csproj", "{7078C570-8687-4E3C-B481-7CF12EF24A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialVeterinarySurgeon.UnitTests", "SocialVeterinarySurgeon.UnitTests\SocialVeterinarySurgeon.UnitTests.csproj", "{700E9192-8C82-4EC4-9C52-2998CCBD0C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E50E82F-D990-496E-85BA-294AC97E9C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E50E82F-D990-496E-85BA-294AC97E9C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E50E82F-D990-496E-85BA-294AC97E9C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E50E82F-D990-496E-85BA-294AC97E9C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031AE526-8EBA-49DD-95A8-4C970B6DCBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031AE526-8EBA-49DD-95A8-4C970B6DCBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031AE526-8EBA-49DD-95A8-4C970B6DCBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031AE526-8EBA-49DD-95A8-4C970B6DCBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2C88B6-D753-4316-8220-6C44DD0E6EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2C88B6-D753-4316-8220-6C44DD0E6EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2C88B6-D753-4316-8220-6C44DD0E6EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2C88B6-D753-4316-8220-6C44DD0E6EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7078C570-8687-4E3C-B481-7CF12EF24A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7078C570-8687-4E3C-B481-7CF12EF24A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7078C570-8687-4E3C-B481-7CF12EF24A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7078C570-8687-4E3C-B481-7CF12EF24A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700E9192-8C82-4EC4-9C52-2998CCBD0C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700E9192-8C82-4EC4-9C52-2998CCBD0C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700E9192-8C82-4EC4-9C52-2998CCBD0C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700E9192-8C82-4EC4-9C52-2998CCBD0C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {516185E5-FDC2-4D0C-B9CB-51ABFD5DF280}
+	EndGlobalSection
+EndGlobal

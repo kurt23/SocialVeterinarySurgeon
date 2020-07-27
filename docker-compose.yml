@@ -1,0 +1,37 @@
+#docker-compose.yml
+version: '3.3'
+services:
+  mysql:
+    image: mysql
+    container_name: veterinary-surgeon-mysql
+    volumes:
+       - mysqldata:/var/lib/mysql
+
+    restart: always
+
+    ports:
+      - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password
+
+    environment:
+      MYSQL_ROOT_PASSWORD: masterkey
+      
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10      
+    
+  veterinary-surgeon-api:
+    image: veterinary-surgeon-api
+
+    container_name: veterinary-surgeon-back
+    depends_on:
+      - mysql
+    
+    build: ./backend
+    ports:
+      - "5000:80"
+    restart: always
+
+volumes:
+  mysqldata:
